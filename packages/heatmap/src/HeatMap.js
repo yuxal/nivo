@@ -88,7 +88,7 @@ class HeatMap extends Component {
         let Cell
         if (cellShape === 'rect') {
             Cell = HeatMapCellRect
-        } else if (cellShape === 'circle') {
+        } else if (true) {
             Cell = HeatMapCellCircle
         } else {
             Cell = cellShape
